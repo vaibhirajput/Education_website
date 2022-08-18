@@ -1,0 +1,38 @@
+#contactcontent{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+
+#contactussection{
+width: 40%;
+height: 60%;
+/* border: 2px solid black; */
+display:  flex;
+flex-direction: column;
+/* align-items: center; */
+justify-content: space-evenly;
+font-weight: bold;
+margin-left: 2vmax;
+}
+#contactussection h1{
+    color: blue;
+
+}
+
+#contactimg{
+
+    width: 50%;
+    height: 70%;
+    /* border: 2px solid black; */
+    overflow: hidden;
+}
+
+#contactimg img{
+width: 100%;
+
+border-radius: 50%;
+
+}

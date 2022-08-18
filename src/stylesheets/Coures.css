@@ -1,0 +1,87 @@
+#courescontent{
+    width: 100vw;
+    height: auto;
+}
+
+#couresheadline{
+    width: 60%;
+    margin: 4vmax auto;
+    /* border: 1px solid black; */
+    background-color:  rgba(188, 143, 143, 0.376);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 3px;
+    
+}
+#courseheader{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+
+}
+
+#courseheader li{
+list-style: none;
+margin: 15px;
+cursor: pointer;
+font-size: 1.1rem;
+
+}
+
+#allcoures{
+width: 85%;
+height: auto;
+/* border: 2px solid black; */
+margin: 0px auto 10vmax auto;
+display: grid;
+grid-template-columns: auto auto;
+align-items: center;
+justify-content: space-evenly;
+grid-column-gap: 50px;
+grid-row-gap: 50px;
+
+
+}
+
+.videos{
+
+    height: 700px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(188, 143, 143, 0.376);
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.videos p{
+font-size: 1.1rem;
+font-weight: bold;
+
+
+}
+#videotext{
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: auto;
+   
+}
+.radius{
+    border-radius: 7px;
+}
+
+#bold{
+    font-weight: bold;
+}
